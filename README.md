@@ -39,10 +39,20 @@ O objetivo do projeto é centralizar campanhas de arrecadação e facilitar o re
 
 A documentação de arquitetura do projeto ficará localizada no diretório `docs/`. Serão produzidos os seguintes artefatos:
 
-- Diagrama UML de Pacotes;
-- Diagrama de Arquitetura de Implantação;
-- Diagrama de Arquitetura DevOps;
-- Documentação da infraestrutura de deploy.
+- [Diagrama UML de Pacotes](docs/diagramas/uml-pacotes.png);
+- [Diagrama de Arquitetura de Implantação](docs/diagramas/implantacao.png);
+- [Diagrama de Arquitetura DevOps](docs/diagramas/devops.png);
+- [Documentação da infraestrutura de deploy](docs/infraestrutura/infraestrutura-deploy.md).
+
+![Diagrama UML de Pacotes do DoaFácil](docs/diagramas/uml-pacotes.png)
+
+### Diagrama de Arquitetura de Implantação
+
+![Diagrama de Arquitetura de Implantação](docs/diagramas/implantacao.png)
+
+## Diagrama de Arquitetura DevOps
+
+![Diagrama de Arquitetura DevOps](docs/diagramas/devops.png)
 
 ## Estrutura do repositório
 
@@ -51,9 +61,13 @@ doafacil/
 ├── README.md
 └── docs/
     ├── diagramas/
-    │   └── .gitkeep
+    │   ├── .gitkeep
+    │   ├── devops.png
+    │   ├── implantacao.png
+    │   └── uml-pacotes.png
     └── infraestrutura/
-        └── .gitkeep
+        ├── .gitkeep
+        └── infraestrutura-deploy.md
 ```
 
 ## Integrantes
