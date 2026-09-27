@@ -73,7 +73,6 @@ doafacil/
 ## Integrantes
 
 - Arthur
-- [Adicionar integrante]
 
 ## Disciplina
 
